@@ -10,6 +10,12 @@ body {
     align-items: center;
 }
 
-.summary-percentage {
+
+.reaction_sec,
+.memory_sec,
+.verbal_sec,
+.visual_sec {
     display: flex;
+    border: 1px solid lightgray;
+    border-radius: 1rem;
 }
