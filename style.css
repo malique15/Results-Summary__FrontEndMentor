@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
 * {
     padding: 0%;
     margin: 0%;
@@ -8,6 +10,36 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Hanken Grotesk' , sans-serif;
+}
+
+.result_bubble {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    border: none;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.result-percentage {
+    display: block;
+    font-size: 1.2rem;
+    color: lightgray;
+}
+
+.result-p{
+    color: lightgray;
+}
+
+.result-p2 {
+    margin-bottom: .8rem;
 }
 
 p {
@@ -17,6 +49,7 @@ p {
 .result_section {
     text-align: center;
     padding: 0 4rem;
+    margin-bottom: 3rem;
 }
 
 .result_summary {
