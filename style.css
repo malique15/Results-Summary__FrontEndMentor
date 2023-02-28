@@ -15,7 +15,7 @@ body {
 
 .result_section {
     background: rgb(120, 87, 255);
-    background: linear-gradient(180deg, rgba(120, 87, 255, 1) 0%, rgba(46, 43, 233, 1) 80%);
+    background: linear-gradient(180deg, rgba(120, 87, 255, 1) 0%, rgba(46, 43, 233, 1) 40%);
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
 }
@@ -64,7 +64,7 @@ h1 {
 .result-p3 {
     color: lightgray;
     font-size: 1rem;
-    padding: 0 2rem;
+    padding: 0 1rem;
 }
 
 
@@ -106,6 +106,7 @@ p {
 }
 
 button {
+    margin-top: .7rem;
     font-size: 18px;
     border: none;
     color: white;
@@ -113,6 +114,7 @@ button {
     background-color: hsl(224, 30%, 27%);
     padding: 5% 40%;
     border-radius: 2rem;
+    width:100%;
 }
 
 .reaction_sec .summary-icon p {
