@@ -15,7 +15,7 @@ body {
 
 .result_section {
     background: rgb(120, 87, 255);
-    background: linear-gradient(180deg, rgba(120, 87, 255, 1) 0%, rgba(46, 43, 233, 1) 40%);
+    background: linear-gradient(180deg, rgba(120, 87, 255, 1) 0%, rgba(46, 43, 233, 1) 45%);
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
 }
