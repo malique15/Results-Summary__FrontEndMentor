@@ -21,11 +21,23 @@ body {
 }
 
 .result_bubble {
+<<<<<<< Updated upstream
+=======
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+>>>>>>> Stashed changes
     height: 150px;
     width: 150px;
     background-image: linear-gradient(hsla(256, 72%, 46%, 1) 0%, hsla(241, 72%, 46%, 0));
     border: none;
     border-radius: 50%;
+}
+
+.result_bubble h1{
+    color: white;
+    font-weight: 800;
 }
 
 h1 {
