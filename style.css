@@ -10,13 +10,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Hanken Grotesk' , sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.result_section {
+    background-color: blue;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
 }
 
 .result_bubble {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 150px;
     width: 150px;
     background-color: blue;
@@ -34,7 +37,7 @@ h1 {
     color: lightgray;
 }
 
-.result-p{
+.result-p {
     color: lightgray;
 }
 
