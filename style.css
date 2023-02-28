@@ -21,13 +21,11 @@ body {
 }
 
 .result_bubble {
-<<<<<<< Updated upstream
-=======
-    
     display: flex;
-    justify-content: center;
     align-items: center;
->>>>>>> Stashed changes
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
     height: 150px;
     width: 150px;
     background-image: linear-gradient(hsla(256, 72%, 46%, 1) 0%, hsla(241, 72%, 46%, 0));
@@ -51,12 +49,24 @@ h1 {
 }
 
 .result-p {
+    padding: 1rem 0;
     color: lightgray;
 }
 
 .result-p2 {
-    margin-bottom: .8rem;
+    margin-top: .7rem;
+    margin-bottom: .5rem;
+    font-weight:500;
+    color: white;
+    font-size: 1.5rem;
 }
+
+.result-p3 {
+    color: lightgray;
+    font-size: 1rem;
+    padding: 0 2rem;
+}
+
 
 p {
     font-size: 18px;
@@ -64,12 +74,16 @@ p {
 
 .result_section {
     text-align: center;
-    padding: 0 4rem;
-    margin-bottom: 3rem;
+    padding: 2rem;
 }
 
 .result_summary {
     padding: 0 1.8rem;
+    margin-top: 1.5rem;
+}
+
+.p-summary {
+    margin-bottom: 1.5rem;
 }
 
 .reaction_sec,
@@ -84,7 +98,6 @@ p {
     border-radius: .5rem;
     height: 3rem;
     margin-bottom: 1rem;
-    background-color: hsl(0, 100%, 96%);
 }
 
 .summary-icon {
@@ -106,16 +119,32 @@ button {
     color: hsl(0, 100%, 67%);
 }
 
+.reaction_sec {
+    background-color: hsla(0, 100%, 67%, .1);
+}
+
 .memory_sec .summary-icon p {
     color: hsl(39, 100%, 56%);
+}
+
+.memory_sec {
+    background-color: hsla(39, 100%, 56%, .1);
 }
 
 .verbal_sec .summary-icon p {
     color: hsl(166, 100%, 37%);
 }
 
+.verbal_sec {
+    background-color: hsla(166, 100%, 37%, 0.1);
+}
+
 .visual_sec .summary-icon p {
     color: hsl(234, 85%, 45%);
+}
+
+.visual_sec {
+    background-color: hsla(234, 85%, 45%, .1);
 }
 
 .summary-percentage p {
