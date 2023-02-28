@@ -14,7 +14,8 @@ body {
 }
 
 .result_section {
-    background-color: blue;
+    background: rgb(120, 87, 255);
+    background: linear-gradient(180deg, rgba(120, 87, 255, 1) 0%, rgba(46, 43, 233, 1) 80%);
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
 }
@@ -22,7 +23,7 @@ body {
 .result_bubble {
     height: 150px;
     width: 150px;
-    background-color: blue;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1) 0%, hsla(241, 72%, 46%, 0));
     border: none;
     border-radius: 50%;
 }
