@@ -156,3 +156,24 @@ button {
 .summary-percent {
     color: hsl(241, 100%, 89%);
 }
+
+@media (min-width: 35rem) {
+    body{ 
+        display: grid;
+        background-color: lightblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 80%;
+        margin: auto;
+    }
+    main {
+        display: flex;
+    }
+
+    .result_section,.result_summary{
+        flex: 1;       
+    }
+
+}
