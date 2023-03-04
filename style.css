@@ -33,7 +33,7 @@ body {
     border-radius: 50%;
 }
 
-.result_bubble h1{
+.result_bubble h1 {
     color: white;
     font-weight: 800;
 }
@@ -56,7 +56,7 @@ h1 {
 .result-p2 {
     margin-top: .7rem;
     margin-bottom: .5rem;
-    font-weight:500;
+    font-weight: 500;
     color: white;
     font-size: 1.5rem;
 }
@@ -114,7 +114,7 @@ button {
     background-color: hsl(224, 30%, 27%);
     padding: 5% 40%;
     border-radius: 2rem;
-    width:100%;
+    width: 100%;
 }
 
 .reaction_sec .summary-icon p {
@@ -158,24 +158,28 @@ button {
 }
 
 @media (min-width: 35rem) {
-    body{ 
-        background-color: lightblue;
+    body {
+        background-color: white;
         margin-top: 5rem;
     }
+
     main {
         display: flex;
         width: 50%;
-        
+        box-shadow: 14px 10px 28px 0px rgba(0, 0, 0, 0.21);
+        border-radius: 2rem;
+
     }
 
-    .result_section,.result_summary{
+    .result_section,
+    .result_summary {
         flex: 1;
     }
 
     .result_section {
         border-radius: 2rem;
     }
-    
+
     .result_bubble {
         width: 170px;
         height: 170px;
@@ -187,5 +191,27 @@ button {
 
     .result-p2 {
         margin: 1.2rem;
+    }
+
+    .reaction_sec,
+    .memory_sec,
+    .verbal_sec,
+    .visual_sec {
+        border: none;
+        margin-bottom: 1.2rem;
+    }
+
+
+    /*result summary*/
+    .p-summary {
+        font-weight: bold;
+        color: hsl(224, 30%, 27%);
+        padding: 1rem;
+    }
+
+    button {
+        margin-top: 1.5rem;
+        text-align: center;
+        padding: 1rem 0;
     }
 }
