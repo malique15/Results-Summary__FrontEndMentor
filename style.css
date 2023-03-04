@@ -185,9 +185,7 @@ button {
         height: 170px;
     }
 
-    .result-p {
-        margin-bottom: 1.5rem;
-    }
+    .result-p {}
 
     .result-p2 {
         margin: 1.2rem;
@@ -203,6 +201,7 @@ button {
 
 
     /*result summary*/
+
     .p-summary {
         font-weight: bold;
         color: hsl(224, 30%, 27%);
