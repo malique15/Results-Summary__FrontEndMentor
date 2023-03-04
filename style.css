@@ -206,7 +206,7 @@ button {
     .p-summary {
         font-weight: bold;
         color: hsl(224, 30%, 27%);
-        padding: 1rem;
+        padding: 1rem 0rem;
     }
 
     button {
