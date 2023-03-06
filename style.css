@@ -79,7 +79,6 @@ p {
 
 .result_summary {
     padding: 0 1.8rem;
-    margin-top: 1.5rem;
 }
 
 .p-summary {
@@ -167,7 +166,6 @@ button {
         display: flex;
         width: 50%;
         box-shadow: 14px 10px 28px 0px rgba(0, 0, 0, 0.21);
-        border-radius: 2rem;
 
     }
 
@@ -180,12 +178,15 @@ button {
         border-radius: 2rem;
     }
 
+    .result_summary{
+        background-color: aqua;
+    }
+
     .result_bubble {
         width: 170px;
         height: 170px;
     }
 
-    .result-p {}
 
     .result-p2 {
         margin: 1.2rem;
