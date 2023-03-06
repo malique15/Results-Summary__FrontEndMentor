@@ -67,7 +67,6 @@ h1 {
     padding: 0 1rem;
 }
 
-
 p {
     font-size: 18px;
 }
@@ -159,7 +158,8 @@ button {
 @media (min-width: 35rem) {
     body {
         background-color: white;
-        margin-top: 5rem;
+        display: grid;
+        place-items: center;
     }
 
     main {
