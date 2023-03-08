@@ -174,7 +174,9 @@ button {
     .result_section,
     .result_summary {
         flex: 1;
+        border-radius: 0;
     }
+
 
     .result_section {
         border-radius: 2rem;
@@ -182,6 +184,7 @@ button {
 
     .result_summary {
         background-color: white;
+        border-radius: 2rem;
     }
 
     .result_bubble {
