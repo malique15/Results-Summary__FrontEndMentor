@@ -176,11 +176,6 @@ button {
         flex: 1;
     }
 
-    .result_summary {
-        border-radius: 2rem;
-
-    }
-
     .result_section {
         border-radius: 2rem;
     }
